@@ -5,7 +5,7 @@ var url     = require('url'),
     qs      = require('querystring'),
     express = require('express'),
     app     = express();
-
+require('dotenv').config()
 var TRUNCATE_THRESHOLD = 10,
     REVEALED_CHARS = 3,
     REPLACEMENT = '***';

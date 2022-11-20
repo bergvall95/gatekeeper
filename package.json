@@ -18,6 +18,7 @@
   "license": "MIT",
   "contributors": [],
   "dependencies": {
+    
     "express": "~4.16.2"
   },
   "engines": {
@@ -26,6 +27,7 @@
   "main": "index",
   "version": "0.1.0",
   "devDependencies": {
+    "dotenv": "^16.0.3",
     "nock": "^9.1.4",
     "supertest": "^3.0.0",
     "tape": "^4.8.0"

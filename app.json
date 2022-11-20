@@ -5,8 +5,8 @@
   "repository": "https://github.com/prose/gatekeeper",
   "keywords": ["node", "github", "oauth"],
   "env": {
-    "OAUTH_CLIENT_ID": "",
-    "OAUTH_CLIENT_SECRET": "",
+    "OAUTH_CLIENT_ID": "GITHUB_APPLICATION_CLIENT_ID",
+    "OAUTH_CLIENT_SECRET": "GITHUB_APPLICATION_CLIENT_SECRET",
     "OAUTH_HOST": "github.com",
     "OAUTH_PORT": "443",
     "OAUTH_PATH": "/login/oauth/access_token",
